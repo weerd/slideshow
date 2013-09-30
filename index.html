@@ -13,7 +13,7 @@
 
 	<link rel="icon" type="image/ico" href="/assets/images/favicon.ico"/>
 
-	<script src="/assets/js/modernizr.dev.js"></script>
+	<script src="/assets/js/modernizr.js"></script>
 
 	<link rel="stylesheet" href="/assets/css/global.css" />
 
@@ -26,19 +26,36 @@
 
   <div id="page" class="page">
 
-    <header class="global" role="banner"></header>
+    <header class="global" role="banner">
+      <h1>Slideshow Experiments</h1>
+    </header>
 
-    <nav class="main-nav" role="navigation">
-      <ul class="menu menu-level-1">
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-      </ul>
-    </nav>
+    <div role="main">
+      
+      <div class="gallery slideshow">
+        <ul>
+          <li class="slide">
+            <img alt="Gallery Image" src="http://placekitten.com/800/500" />
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li class="slide">
+            <img alt="Gallery Image" src="http://placekitten.com/800/400" />
+            <p>Aenean Fringilla Inceptos Ipsum Risus</p>
+          </li>
+          <li class="slide">
+            <img alt="Gallery Image" src="http://placekitten.com/300/500" />
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          </li>
+          <li class="slide">
+            <img alt="Gallery Image" src="http://placekitten.com/600/350" />
+          </li>
+          <li class="slide">
+            <img alt="Gallery Image" src="http://placekitten.com/500/450" />
+            <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+          </li>
+        </ul>
+      </div>
 
-    <main role="main">
-      <!-- page content -->
     </main>
 
     <footer class="global" role="contentinfo"></footer>
